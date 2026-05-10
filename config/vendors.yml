@@ -1,0 +1,232 @@
+settings:
+  timezone: Asia/Jakarta
+  lookback_days: 2
+  min_duration_seconds: 300
+  max_duration_seconds: 14400
+  max_media_download_mb: 250
+  fuzzy_title_threshold: 92
+  keep_keywords:
+    - AI
+    - agent
+    - agents
+    - agentic
+    - Agentforce
+    - AIPCon
+    - briefing
+    - Claude
+    - conference
+    - demo
+    - developer day
+    - DevDay
+    - Dreamforce
+    - keynote
+    - LangChain
+    - LangGraph
+    - launch
+    - model
+    - on-demand
+    - presentation
+    - product
+    - Qwen
+    - recording
+    - release
+    - technical
+    - webinar
+  reject_keywords:
+    - fan
+    - mirror
+    - reaction
+    - reupload
+    - re-upload
+    - rumor
+    - stock analysis
+    - price target
+    - unofficial
+
+vendors:
+  - name: OpenAI
+    aliases: [ChatGPT]
+    verified_speakers:
+      - Sam Altman
+      - Greg Brockman
+      - Brad Lightcap
+      - Kevin Weil
+      - Mark Chen
+      - Jakub Pachocki
+    official_domains:
+      - openai.com
+    youtube_channels:
+      - name: OpenAI YouTube
+        handle: "@OpenAI"
+        proof: Official OpenAI YouTube channel allowlisted by handle.
+    event_pages:
+      - name: OpenAI DevDay
+        url: https://openai.com/devday/
+        proof: OpenAI-owned DevDay page.
+
+  - name: Anthropic
+    aliases: [Claude]
+    verified_speakers:
+      - Dario Amodei
+      - Daniela Amodei
+      - Mike Krieger
+      - Jared Kaplan
+      - Tom Brown
+      - Chris Olah
+    official_domains:
+      - anthropic.com
+    youtube_channels:
+      - name: Anthropic YouTube
+        handle: "@anthropic-ai"
+        proof: Official Anthropic YouTube channel allowlisted by handle.
+    event_pages:
+      - name: Anthropic Events
+        url: https://www.anthropic.com/events
+        proof: Anthropic-owned events and webinars page.
+
+  - name: DeepSeek
+    aliases: [DeepSeek AI]
+    verified_speakers:
+      - Liang Wenfeng
+    official_domains:
+      - deepseek.com
+    youtube_channels:
+      - name: DeepSeek YouTube
+        handle: "@deepseek-ai"
+        proof: DeepSeek official YouTube handle from allowlist.
+    event_pages:
+      - name: DeepSeek Home
+        url: https://www.deepseek.com/
+        proof: DeepSeek-owned website.
+
+  - name: Qwen
+    aliases: [Alibaba Qwen, Alibaba Cloud Qwen]
+    verified_speakers:
+      - Junyang Lin
+      - Binyuan Hui
+    official_domains:
+      - qwen.ai
+      - qwenlm.github.io
+      - alibabacloud.com
+    youtube_channels:
+      - name: Qwen YouTube
+        handle: "@QwenLM"
+        proof: Official Qwen YouTube channel allowlisted by handle.
+      - name: Alibaba Cloud YouTube
+        handle: "@AlibabaCloud"
+        proof: Alibaba Cloud official channel for Qwen-related presentations.
+    event_pages:
+      - name: Qwen Blog
+        url: https://qwenlm.github.io/
+        proof: Qwen official blog.
+      - name: Alibaba Cloud Qwen
+        url: https://www.alibabacloud.com/solutions/generative-ai/qwen
+        proof: Alibaba Cloud-owned Qwen page.
+
+  - name: Kimi
+    aliases: [Moonshot AI, Kimi Moonshot]
+    verified_speakers:
+      - Yang Zhilin
+    official_domains:
+      - kimi.com
+      - moonshot.ai
+    youtube_channels:
+      - name: Kimi YouTube
+        handle: "@KimiMoonshot"
+        proof: Kimi/Moonshot official YouTube channel allowlisted by handle.
+    event_pages:
+      - name: Moonshot AI
+        url: https://www.moonshot.ai/
+        proof: Moonshot AI-owned website.
+
+  - name: MiniMax
+    aliases: [Hailuo, Hailuo AI]
+    verified_speakers:
+      - Yan Junjie
+    official_domains:
+      - minimax.io
+      - minimaxi.com
+      - minimax.ad
+    youtube_channels:
+      - name: HailuoAI MiniMax YouTube
+        handle: "@hailuoai_minimax"
+        proof: HailuoAI MiniMax official channel allowlisted by handle.
+    event_pages:
+      - name: MiniMax
+        url: https://www.minimax.io/
+        proof: MiniMax-owned website.
+
+  - name: n8n
+    aliases: [n8n.io]
+    verified_speakers:
+      - Jan Oberhauser
+      - Max Tkacz
+    official_domains:
+      - n8n.io
+    youtube_channels:
+      - name: n8n YouTube
+        handle: "@n8n-io"
+        proof: Official n8n YouTube channel allowlisted by handle.
+    event_pages:
+      - name: n8n AI Agents
+        url: https://n8n.io/ai-agents/
+        proof: n8n-owned AI agents page.
+
+  - name: LangChain
+    aliases: [LangGraph, LangSmith]
+    verified_speakers:
+      - Harrison Chase
+      - Ankush Gola
+    official_domains:
+      - langchain.com
+    youtube_channels:
+      - name: LangChain YouTube
+        handle: "@LangChain"
+        proof: Official LangChain YouTube channel allowlisted by handle.
+    event_pages:
+      - name: LangChain Events
+        url: https://www.langchain.com/events
+        proof: LangChain-owned events page.
+
+  - name: Palantir
+    aliases: [Palantir AIP, AIPCon]
+    verified_speakers:
+      - Alex Karp
+      - Shyam Sankar
+      - Ted Mabrey
+    official_domains:
+      - palantir.com
+      - q4web.com
+    youtube_channels:
+      - name: Palantir YouTube
+        handle: "@palantirtech"
+        proof: Official Palantir YouTube channel allowlisted by handle.
+    event_pages:
+      - name: Palantir AIP Docs
+        url: https://www.palantir.com/docs/foundry/aip/overview/
+        proof: Palantir-owned AIP documentation.
+
+  - name: Salesforce
+    aliases: [Agentforce, Dreamforce]
+    verified_speakers:
+      - Marc Benioff
+      - Parker Harris
+      - Clara Shih
+      - Marc Mathieu
+    official_domains:
+      - salesforce.com
+    youtube_channels:
+      - name: Salesforce YouTube
+        handle: "@salesforce"
+        proof: Official Salesforce YouTube channel allowlisted by handle.
+      - name: Salesforce Developers YouTube
+        handle: "@SalesforceDevs"
+        channel_id: UCKORm8sxh3cheBpqs0akkhg
+        proof: Official Salesforce Developers YouTube channel allowlisted by verified channel ID and @SalesforceDevs handle.
+    event_pages:
+      - name: Salesforce Plus Dreamforce
+        url: https://www.salesforce.com/plus/dreamforce/
+        proof: Salesforce-owned Dreamforce video hub.
+      - name: Dreamforce Schedule
+        url: https://www.salesforce.com/dreamforce/schedule/
+        proof: Salesforce-owned Dreamforce schedule page.

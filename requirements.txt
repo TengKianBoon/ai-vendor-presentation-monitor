@@ -1,0 +1,5 @@
+beautifulsoup4>=4.12
+pytest>=8.0
+PyYAML>=6.0
+rapidfuzz>=3.6
+requests>=2.31
